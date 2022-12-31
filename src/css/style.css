@@ -1,4 +1,21 @@
+* {
+  font-family: Inter, sans-serif;
+  background-color: hsl(36, 100%, 99%);
+}
 
+/* HEADER */
+
+.header.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header .nav-bar ul {
+    display: flex;
+    padding: 5px;
+}
 
 /* FOOTER */
 .attribution {
