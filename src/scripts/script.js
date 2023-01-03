@@ -1,9 +1,0 @@
-/*
-    Menu hamburguer
-
-    menu criado com css
-
-    criar o evento de clique
-
-    mudar para closed
-*/
