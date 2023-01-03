@@ -27,6 +27,14 @@ body {
     cursor: pointer;
 }
 
+.hamburguer {
+    display: none;
+    border: none;
+    background-color: hsl(36, 100%, 99%);
+    cursor: pointer;
+    z-index: 100;
+}
+
 /* MAIN */
 
 .container {

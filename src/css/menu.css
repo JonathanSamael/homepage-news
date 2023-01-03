@@ -1,0 +1,24 @@
+/* MENU HAMBURGUER */
+
+.hamburguer .menu {
+    width: 22px;
+    height: 4px;
+    background-color: #000;
+    margin: 3px;
+    position: relative;
+    transition: ease-in-out 600ms;
+}
+
+.hamburguer .hidden {
+    display: none;
+}
+
+.hamburguer .closed {
+    rotate: 45deg;
+    bottom: -3px;
+}
+
+.hamburguer .closed:nth-child(3) {
+    rotate: -45deg;
+    top: -4px;
+}

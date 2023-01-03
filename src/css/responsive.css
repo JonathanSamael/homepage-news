@@ -38,6 +38,10 @@
         display: none;
     }
 
+    .hamburguer {
+        display: block;
+    }
+
     .container {
         display: block;
         height: fit-content;
