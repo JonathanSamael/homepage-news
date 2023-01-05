@@ -6,31 +6,32 @@
     background-color: #000;
     margin: 3px;
     position: relative;
-    transition: ease-in-out 600ms;
+    transition: ease-in-out 300ms;
 }
 
-.hamburguer .hidden {
-    display: none;
-}
-
-.hamburguer .closed {
+.hamburguer .menu.closed {
     rotate: 45deg;
     bottom: -3px;
 }
 
-.hamburguer .closed:nth-child(3) {
+.hamburguer .menu.closed:nth-child(2) {
+    rotate: 45deg;
+    bottom: 4px;
+}
+
+.hamburguer .menu.closed:nth-child(3) {
     rotate: -45deg;
-    top: -4px;
+    top: -11px;
 }
 
 .header.nav .nav-bar .items-menu {
     display: inline-block;
     position: fixed;
     transform: translateY(-100%);
-    transition: transform 200ms;
+    transition: ease-in-out 200ms;
     top: 0;
     right: 0;
-    left: 100px;
+    left: 130px;
     bottom: 0;
     z-index: 100;
     background-color: hsl(36, 100%, 99%);
@@ -43,7 +44,7 @@
 
 .overlay {
     position: fixed;
-    /* display: none; */
+    display: none;
     z-index: 99;
     top: 0;
     left: 0;
@@ -52,4 +53,8 @@
     background: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 100vh;
+}
+
+.show-overlay {
+    display: block;
 }
