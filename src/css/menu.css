@@ -10,7 +10,7 @@
 }
 
 .hamburguer .menu.closed {
-    rotate: 45deg;
+    rotate: -45deg;
     bottom: -3px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .hamburguer .menu.closed:nth-child(3) {
-    rotate: -45deg;
+    rotate: 315deg;
     top: -11px;
 }
 
