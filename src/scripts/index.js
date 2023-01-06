@@ -11,25 +11,14 @@ function toggleMenu() {
 function menuClosed() {
 
     linesMenu.forEach(line => {
-    
-        if (line.classList == "menu") {
 
-            linesMenu[0].classList.add("closed")
-            linesMenu[1].classList.add("closed")
-            linesMenu[2].classList.add("closed")
-
-        } else if (line.classList.contains("closed")){
-
-            linesMenu[0].classList.remove("closed")
-            linesMenu[1].classList.remove("closed")
-            linesMenu[2].classList.remove("closed")
+        if(line.classList.contains("closed")) {
+            line.classList.remove("closed")
+        } else {
+            line.classList.add("closed")
         }
     })
 };
-
-
-
-
 
 btnMenu.addEventListener("click", () => {
     toggleMenu();
